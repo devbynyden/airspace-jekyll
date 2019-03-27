@@ -1,0 +1,44 @@
+slider_title: Vergaderen in een oase van rust
+slider_subtitle: Het Vergaderhof
+p1_h: Over ons
+p1_fairy: Het vergaderhof verhuurt karaktervolle vergaderlocaties in het groen. De autentieke setting is een ideale omgeving om zakelijk te brainstormen, te vergaderen en om alles op een rijtje te zetten.
+p1: |
+  Midden in de natuur met de mogelijkheid om buitensessies te houden of te dineren.
+  De rust zorgt voor ruimte en nieuwe inzichten.
+  Gelegen vlak aan de snelweg E43 (aan de Rodendijk te Zoersel) is het makkelijk bereikbaar, ook vanuit Nederland.
+p2_h: Gastvrijheid
+p2:
+  - body: Volgens onze gasten het sterkste punt van het vergaderhof, onze de gastvrouw. Een persoonlijke benadering en service tot in de puntjes horen bij deze vergaderlocatie.
+  - body: Het perfecte evenwicht tussen een professionele maar warme benadering. Het eten wordt ook zelf gastronomisch bereid met zorg.
+p2_h2: Indruk maken op uw relaties
+p2_2:
+  - body: Vergaderen is ook een stuk relatiebeheer. Laat een onvergetelijke en persoonlijke indruk achter.
+  - body: Laat zien dat u aandacht voor uw relaties heeft en dat u hen waardeert door een autentieke locatie te selecteren.
+  - body: Wij maken graag samen met u het verschil.
+service_title: Onze services
+service_subtitle: lorem ipsum
+services:
+  - title: Catering
+    icon: ion-android-restaurant
+    content: De gastvrouw bereid alle gerechten thuis, gastronomisch en alles vers gemaakt.
+  - title: Tijdloos Kader
+    icon: ion-ios-sunny-outline
+    content: Lorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsum
+  - title: "***"
+    icon: ion-ios-people
+    content: Lorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsum
+  - title: Parking
+    icon: ion-android-car
+    content: Verscheidene parkeerplaatsen gratis ter uwer beschikbaarheid.
+  - title: All-round Meetings
+    icon: ion-ios-briefcase
+    content: Lorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsum
+  - title: Groen en rust
+    icon: ion-leaf
+    content: Lorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsum
+  - title: Bereikbaarheid
+    icon: ion-android-bus
+    content: Ideaal centraal gelegen, makkelijk bereikbaar vanuit de hele Benelux.
+  - title: Connectiviteit
+    icon: ion-connection-bars
+    content: Lorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsum

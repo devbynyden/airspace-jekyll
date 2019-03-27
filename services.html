@@ -3,29 +3,68 @@ layout: page
 title: Services
 permalink: /services/
 ---
-
-    <!-- Slider Start -->
+{% if site.data_debug_enabled %}
+<pre>
+  Services: {{ site.data.services_content | jsonify | escape }}
+</pre>
+{% endif %}
+<!-- Slider Start -->
 <section id="global-header">
     <div class="container">
         <div class="row">
             <div class="col-md-12">
                 <div class="block">
-                    <h1>Just some of our latest projects.</h1>
-                    <p>Don’t just take our word for it. Check out some of our latest work.</p>
+                    <h1>{{ site.data.services_content.title }}</h1>
+                    <p>{{ site.data.services_content.subtitle }}</p>
                 </div>
             </div>
         </div>
     </div>
 </section>
-    <!-- Call to action Start -->
+<section id="intro">
+  <div class="container">
+    <div class="row">
+      {% for pack in site.data.services_content.packs %}
+      <div class="col-sm-6">
+        {% if pack.empty %}
+          <div class="panel panel-default">
+        {% else %}
+          <div class="panel panel-default" style="min-height: 150px;">
+        {% endif %}
+          <div class="panel-heading">
+            <h3 class="panel-title" style="text-align: center;"><b>{{ pack.title }}</b></h3>
+            <div style="text-align:right;">{{ pack.price }}</div>
+          </div>
+          {% if pack.empty %}
+          {% else %}
+            <div class="panel-body">
+              {% if pack.content %}
+                <span>{{ pack.content }}</span>
+              {% endif %}
+                <ul class="list-inline">
+                  {% for name in pack.service %}
+                  <div class="col-sm-6">
+                    <li style="list-style-type:circle;">{{ name.name }}</li>
+                  </div>
+                  {% endfor %}
+                </ul>
+            </div>
+          {% endif %}
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+<!-- Call to action Start -->
 <section id="call-to-action">
   <div class="container">
     <div class="row">
       <div class="col-md-12">
         <div class="block">
-          <h2>We design delightful digital experiences.</h2>
-          <p>Read more about what we do and our philosophy of design. Judge for yourself The work and results we’ve achieved for other clients, and meet our highly experienced Team who just love to design.</p>
-          <a class="btn btn-default btn-call-to-action" href="#" >Tell Us Your Story</a>
+          <h2>Reserveer nu!</h2>
+          <p>Voor meer informatie of reservaties gelieve ons via deze pagina te contacteren.</p>
+          <a class="btn btn-default btn-call-to-action" href="{{ site.baseurl }}/contact" >Geef ons een seintje</a>
         </div>
       </div>
     </div>

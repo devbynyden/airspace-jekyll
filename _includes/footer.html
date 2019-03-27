@@ -6,13 +6,15 @@
         <div class="footer-manu">
           <ul>
             <li><a href="#">Over ons</a></li>
-            <li><a href="{{ site.baseurl }}/zaal">Onze zaal</a></li>
+            <li><a href="{{ site.baseurl }}/zaal">Onze zalen</a></li>
             <li><a href="{{ site.baseurl }}/services">Services</a></li>
+			{% if site.blog_enabled %}
             <li><a href="{{ site.baseurl }}/blog">Blog</a></li>
+			{% endif %}
             <li><a href="{{ site.baseurl }}/contact">Contacteer ons</a></li>
           </ul>
         </div>
-        <p>Copyright &copy; Design &amp; Developed by <a href="http://www.themefisher.com">Themefisher</a>. All rights reserved.</p>
+        <p>Copyright &copy; 2019 | Design &amp; Development by <a href="http://www.bynyden.com">ByNyden</a>. All rights reserved.</p>
       </div>
     </div>
   </div>

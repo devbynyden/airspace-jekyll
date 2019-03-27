@@ -14,14 +14,16 @@ keep_files:
 
 
 # Site settings
-title: Airspace
-subtitle: "A free HTML5 agency template"
-url: "http://devbynyden.github.io" # the base hostname & protocol for your site
+title: Het Vergaderhof
+subtitle: "Vergaderen in een oase van rust"
+url: "" # the base hostname & protocol for your site
 # baseurl: "/the/subpath/of/your/site" # Set this value to "" if you want your site to be root
-baseurl: "/airspace-jekyll"
+baseurl: "/vergaderhof"
 cover: "/assets/cover.png"
 logo: "/assets/logo.png"
-
+blog_enabled: False
+fun_facts_enabled: False
+data_debug_enabled: False
 # Build settings
 markdown: kramdown
 

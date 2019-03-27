@@ -1,0 +1,40 @@
+title: Onze Services
+subtitle:
+packs:
+  - title: Ontbijt Pack
+    price: €13,00 p.p.
+    service:
+      - name: Aanbod van yoghurt
+      - name: Vers fruitsap
+      - name: Gebak
+      - name: Home-made granola
+      - name: Koffiekoeken
+  - title: Break Pack
+    price: €12,00 p.p.
+    service:
+      - name: Aanbod van zoetigheden
+      - name: Gebak
+      - name: Vers fruitsap
+      - name: Hartige snacks
+  - title: Lunch Pack
+    price: €25,00 p.p.
+    content: "Wisselend aanbod van zelf bereide maaltijden:"
+    service:
+      - name: Voorgerecht
+      - name: Hoofdgerecht
+      - name: Dessert
+  - title: Apero Pack
+    price: €17,00 p.p.
+    service:
+      - name: Rode wijn
+      - name: Witte wijn
+      - name: Bier
+      - name: Frisdrank
+      - name: Cava
+      - name: Versnaperingen
+  - title: Cake bij de Koffie
+    price: €5,00 p.p.
+    empty: True
+  - title: Frisdrank Pack (Gehele dag)
+    price: €5,00 p.p.
+    empty: True

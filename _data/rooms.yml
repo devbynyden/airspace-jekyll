@@ -1,0 +1,48 @@
+slider_title: Onze zalen
+slider_subitle:
+rooms:
+  - title: De hofzaal - max 8 p
+    body: |
+      De hofzaal is een aparte privé-zaal gelegen in de tuin, naast het Zoerselse monument 'het Zoerselhof'.
+      Geniet van een groen uitzicht nabij de bossen, een huiselijke sfeer en stilte.
+      Deze zaal beschikt over een eigen koffiehoek.
+    includes:
+      - title: Koffie
+        icon: ion-coffee
+      - title: WiFi
+        icon: ion-wifi
+      - title: Scherm
+        icon: ion-ios-monitor
+      - title: Flipchart
+        icon: ion-easel
+      - title: Beamer
+        icon: ion-ios-videocam
+      - title: Schrijfmateriaal
+        icon: ion-edit
+
+  - title: Zaal trapke op - max 12 p
+    body: |
+      De zaal trapkje op is de oudste zaal van Zoersel.
+      Volledig opgeknapt en ingericht tot in de puntjes met de bewaarde historische karakteristiek.
+
+      Geniet van een groen uitzicht op de tuin en het Zoerselse monument 'het Zoerselhof'.
+
+      Deze warme en bijzondere zaal beschikt over eigen koffiehoek.
+    includes:
+      - title: Koffie
+        icon: ion-coffee
+      - title: WiFi
+        icon: ion-wifi
+      - title: Scherm
+        icon: ion-ios-monitor
+      - title: Flipchart
+        icon: ion-easel
+      - title: Beamer
+        icon: ion-ios-videocam
+      - title: Schrijfmateriaal
+        icon: ion-edit
+
+extra: |
+  Koffie, thee & water zijn steeds inbegrepen bij de vergaderzaal.
+  <br>Bij goed weer is het steeds mogelijk om vergaderingen, maaltijden of bijeenkomsten in de buitenlucht plaats te laten vinden.
+  Onze prive setting is hiervoor geschikt.

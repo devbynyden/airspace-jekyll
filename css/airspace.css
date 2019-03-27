@@ -117,6 +117,7 @@ font header .navbar-default .navbar-nav li a:hover {
   opacity: 0.8;
 }
 #slider .block {
+  text-align: center;
   color: #E3E3E4;
 }
 #slider .block h1 {
@@ -128,9 +129,8 @@ font header .navbar-default .navbar-nav li a:hover {
   padding-bottom: 45px;
 }
 #slider .block p {
-  font-size: 23px;
+  font-size: 40px;
   line-height: 40px;
-  font-family: 'Roboto', sans-serif;
   font-weight: 300;
   letter-spacing: 3px;
 }
@@ -168,6 +168,7 @@ font header .navbar-default .navbar-nav li a:hover {
 }
 #service .service-item {
   padding-bottom: 30px;
+  min-height: 240px;
 }
 #service .service-item i {
   font-size: 60px;

@@ -15,15 +15,18 @@
             <span class="icon-bar"></span>
             </button>
             <a class="navbar-brand" href="index.html">
-              <img src="{{ site.baseurl }}/img/logo.png" alt="Logo">
+		<span class="brand-name">{{ site.title }}</span>
+              <!-- <img src="{{ site.baseurl }}/img/logo.png" alt="Logo"> -->
             </a>
           </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
               <ul class="nav navbar-nav navbar-right">
                 <li><a href="{{ site.baseurl }}/">Home</a></li>
-                <li><a href="{{ site.baseurl }}/zaal">Onze zaal</a></li>
+                <li><a href="{{ site.baseurl }}/zaal">Onze zalen</a></li>
+				{% if site.blog_enabled %}
                 <li><a href="{{ site.baseurl }}/blog">Blog</a></li>
+				{% endif %}
                 <li><a href="{{ site.baseurl }}/services">Services</a></li>
                 <li><a href="{{ site.baseurl }}/contact">Contacteer ons</a></li>
               </ul>

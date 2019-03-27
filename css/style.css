@@ -3,6 +3,16 @@
  * To find the original style.css that ships with Airspace, read airspace.css
  *
  */
+@import url('https://fonts.googleapis.com/css?family=Raleway:500');
+
+header .navbar-brand a:hover {
+  color: #9DBE76;
+}
+
+.room_icons i {
+  font-size: 30px;
+  padding-right: 20px;
+}
 
  .italic {
    font-style: italic;
@@ -31,4 +41,9 @@
 
 .post-area a:hover {
   color: #0D0017;
+}
+
+.brand-name {
+  font-family: 'Raleway', sans-serif;
+  font-size: 40px;
 }
